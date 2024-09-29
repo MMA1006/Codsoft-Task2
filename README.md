@@ -14,10 +14,10 @@ Welcome to the Tic-Tac-Toe game project! This project is developed as part of my
 
 ## Features
 
-- Single Player Mode**: Play against an AI opponent powered by the Minimax algorithm.
-- Two Player Mode**: Challenge a friend in a classic local multiplayer game.
-- Responsive Design**: Play on various devices with a user-friendly interface.
-- Dynamic Gameplay**: Restart the game easily and view the winner after each match.
+- Single Player Mode: Play against an AI opponent powered by the Minimax algorithm.
+- Two Player Mode: Challenge a friend in a classic local multiplayer game.
+- Responsive Design: Play on various devices with a user-friendly interface.
+- Dynamic Gameplay: Restart the game easily and view the winner after each match.
 
 ## Technologies Used
 
