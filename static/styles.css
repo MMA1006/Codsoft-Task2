@@ -1,0 +1,76 @@
+/* General styles */
+body {
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    color: #ff6347;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+/* Game board */
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin: 0 auto;
+}
+
+/* Cells */
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    font-size: 2em;
+    text-align: center;
+    line-height: 100px; /* Center the text vertically */
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: lightblue; /* Color on hover */
+}
+
+.cell.clicked {
+    background-color: lightgray; /* Color for clicked cells */
+    pointer-events: none; /* Disable clicks on clicked cells */
+}
+
+/* Button */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #32cd32; /* Lime Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #228b22; /* Dark Green on hover */
+}
+
+#game-status {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
