@@ -63,5 +63,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Contact
 If you have any questions or feedback, feel free to reach out to me:
 
-Email: muzali2003@gmail.com
-GitHub: MMA1006{https://github.com/MMA1006}
+-Email: muzali2003@gmail.com
+-GitHub: [MMA1006](https://github.com/MMA1006)
